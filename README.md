@@ -7,9 +7,8 @@ This repo holds the source code and scripts for reproducing the key experiments 
 ## Datasets
 
 Download the following datasets, and run our data_process.py, then you can get the data format that can be used in our Matlab codes.
-| __Dataset__ | __link__ |
-|-------------|------------|
-|Athlete|https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results|
+
+Athlete  https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results  
 |Bank|https://archive.ics.uci.edu/ml/datasets/bank+marketing |
 |Census|https://archive.ics.uci.edu/ml/datasets/Adult|
 |Creditcard|https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41870a63a8c76c2f-Paper.pdf|
