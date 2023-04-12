@@ -6,7 +6,7 @@ This repo holds the source code and scripts for reproducing the key experiments 
 
 ## Datasets
 
-Download the following datasets, and run our `data_process.py`, then you can get the data format that can be used in our Matlab codes.
+Download the following datasets, and run our `data_process.py`, you can get the data format (DATASET_NAME.csv, DATASET_NAME_color.csv) that can be used in our Matlab codes. Then put them in DATASET_NAME folder. For instance, for Bank, one should put them in Bank/bank.csv and Bank/bank_color.csv.
 
 Athlete        https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results  
 
