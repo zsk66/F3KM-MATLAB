@@ -29,7 +29,42 @@ Census1990     https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41
 HMDA           https://ffiec.cfpb.gov/data-browser/
 
 ## Start
- ```
-run main.m 
- ```
+
+There are 2 functions/APIs to be used from the files here (F3KM and CDKM). Try running `main.m`. See main.m for an example on how to use all 2 function. 
+
+## Function 1: F3KM
+Inputs: X, label,c, color, delta, block_size ,rho_0, u_0, violation, max_iters
+Description of Inputs:
+  X: dataset.  
+  
+  label: initial label of each point, we use kmeans++ for initialization.
+  
+  c: number of clusters.
+  
+  color: the color matrix P in our paper.
+  
+  delta: a hyperparameter for tuning alpha and delta.
+  
+  block_size: n_b in our paper, the number of points in each block.
+  
+  rho_0: the step size.
+  
+  u_0: the initial value of dual variable.
+  
+  violation: the additive violation in our paper.
+  
+  max_iters: the maximun iterations.
+  
+Return:
+The function returns five numeric values. The first is the final label vector, the second is the objective function value, the third is the number of iterations, the fourth is the objective function values in each iteration, the fifth is the balance values in each cluster.
+
+## Function 2: CDKM
+Inputs: X, label,c, color
+
+For description of inputs, view above. See sample usage in main.m
+
+Return:
+Y, minO, iter_num, obj, balance_value
+
+
 
