@@ -11,13 +11,13 @@ Download the following datasets, and run our data_process.py, then you can get t
 Athlete        https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results  
 Bank           https://archive.ics.uci.edu/ml/datasets/bank+marketing 
 Census         https://archive.ics.uci.edu/ml/datasets/Adult
-Creditcard     https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41870a63a8c76c2f-Paper.pdf|
-Diabetes       https://archive.ics.uci.edu/ml/datasets/diabetes|
-Recruitment    https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring/ |
-Spanish        https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring/ |
-Student        https://analyse.kmi.open.ac.uk/open_dataset.|
-Census1990     https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41870a63a8c76c2f-Paper |
-HMDA           https://ffiec.cfpb.gov/data-browser/ |
+Creditcard     https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41870a63a8c76c2f-Paper.pdf
+Diabetes       https://archive.ics.uci.edu/ml/datasets/diabetes
+Recruitment    https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring/
+Spanish        https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring/
+Student        https://analyse.kmi.open.ac.uk/open_dataset
+Census1990     https://proceedings.neurips.cc/paper/2019/file/fc192b0c0d270dbf41870a63a8c76c2f-Paper
+HMDA           https://ffiec.cfpb.gov/data-browser/
 ## Start
  ```
 run main.m 
